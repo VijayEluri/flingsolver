@@ -1,0 +1,37 @@
+A simple solver for the iphone game "Fling"
+
+Requirements
+============
+
+Please ensure you have maven 2.2.x installed
+
+Running
+=======
+
+i) Enter your starting grid in the file 'FlingGrid.txt' when you have finished it should look like this :-
+
+0001000
+0010100
+1000100
+0001000
+0000011
+0010000
+0100000
+0110000
+
+With the '1's representing the furries
+
+ii) Execute the main class
+
+mvn exec:java -Dexec.mainClass="org.flingsolver.FlingSolver" -Dexec.args="./flingGrid.txt" 
+
+Creating the eclipse project
+============================
+
+mvn eclipse:eclipse
+
+Running the tests
+=================
+
+mvn test
+
