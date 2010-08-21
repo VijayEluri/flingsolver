@@ -8,7 +8,7 @@ Please ensure you have maven 2.2.x installed
 Running
 =======
 
-i) Enter your starting grid in the file 'FlingGrid.txt' when you have finished it should look like this :-
+i) Enter your starting grid in the file 'flingGrid.txt' when you have finished it should look like this :-
 
 0001000
 0010100
